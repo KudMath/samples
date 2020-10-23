@@ -1,0 +1,19 @@
+{
+  "question": "",
+  "answers":  [
+    {
+      "text": "Correct",
+      "distribution": 0.3,
+      "correct": true
+    },
+    {
+      "text": "InCorrect",
+      "distribution": 0.3
+    },
+    {
+      "text": "InCorrect2",
+      "distribution": 0.3
+    }
+  ],
+  "difficultyELO": 1500
+}

@@ -10,6 +10,7 @@ import LayoutStoryView from '/component/view/LayoutStoryView';
 import LinkComponentStoryView from '/component/view/LinkComponentsStoryView';
 import WrapUpStoryView from '/component/view/WrapUpStoryView';
 import MillennialsStoryView from '/component/view/MillennialsStoryView';
+import Home from '/component/view/Home';
 
 import CSSReset from '/component/css/CSSReset';
 
@@ -33,7 +34,6 @@ class AppRoot extends React.Component {
           <CSSReset />
           <GlobalCSS />
           <Switch>
-            <Route exact path="/" component={MillennialsStoryView} />
             <Route
               exact
               path={'/stories/behind-the-story'}
@@ -65,6 +65,7 @@ class AppRoot extends React.Component {
               path={'/stories/millennials'}
               component={MillennialsStoryView}
             />
+            <Route path="/" component={Home} />
           </Switch>
         </React.Fragment>
       </ThemeProvider>

@@ -80,10 +80,10 @@ const StoryPage1 = () => {
         template="vertical"
         style={{alignContent: 'center'}}
       >
-        <Heading>Millennials</Heading>
+        <Heading>Stories</Heading>
         <SubHeading>
-          The rise of millions of photo- <br />
-          graphers
+          The rise of web first <br />
+          storytelling
         </SubHeading>
         <CtaButton>Tap to start</CtaButton>
       </amp-story-grid-layer>

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import AmpStory from '/component/amp/AmpStory';
-
+import Bookend from '/component/bookend';
 import Head from './Head';
 import StoryPage1 from './pages/StoryPage1';
 import StoryPage2 from './pages/StoryPage2';
@@ -28,7 +28,7 @@ class MillennialsStoryView extends React.Component {
         <AmpStory
           standalone=""
           title="Millennials"
-          publisher="AMP tutorials"
+          publisher="Mathieu K"
           publisher-logo-src="/static/stories/publisher_logo.png"
           poster-portrait-src="https://placehold.it/256x128"
           poster-landscape-src="https://placehold.it/128x256"
@@ -51,10 +51,7 @@ class MillennialsStoryView extends React.Component {
           <StoryPage15 />
           <StoryPage16 />
           <StoryPage17 />
-          <amp-story-bookend
-            layout="nodisplay"
-            src="/static/stories/millennials/bookend.json"
-          />
+          <Bookend />
         </AmpStory>
       </React.Fragment>
     );

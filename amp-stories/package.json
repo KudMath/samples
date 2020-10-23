@@ -17,6 +17,7 @@
     "test:amplint": "MINIFY_MARKUP=true WEB_URL=http://localhost node -r @babel/register ./test/amp.js"
   },
   "dependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.12.1",
     "@babel/preset-react": "7.0.0",
     "babel-plugin-styled-components": "^1.10.6",
     "clean-css": "4.2.1",

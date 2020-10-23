@@ -12,6 +12,7 @@ import Page from '/component/static/Page';
 import AppRoot from '/component/root/AppRoot';
 
 const renderPage = (props) => {
+  console.log('renderPage', { props })
   return ReactDOMServer.renderToStaticMarkup(
     <Page rootElementId={AppRoot.rootElementId} {...props} />,
   );

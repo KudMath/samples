@@ -8,7 +8,7 @@ const LdJson = {
 
 const Head = () => (
   <Helmet>
-    <title>Millennials: The rise of millions of photographers</title>
+    <title>Stories: The rise of web-first storytelling</title>
     <script
       async
       custom-element="amp-story"

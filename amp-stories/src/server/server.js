@@ -33,6 +33,10 @@ const app = compose(
     serve({root: path.join(__dirname, '..', '..', 'static')}),
   ),
   apply(request, url, async (req, {path}) => {
+    console.log({
+      url,
+      path,
+    })
     const {status, headers, markup} = await render({
       path,
       locale: 'en-US',

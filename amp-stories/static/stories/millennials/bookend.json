@@ -1,28 +1,40 @@
 {
   "bookendVersion": "v1.0",
-  "shareProviders": [
-    "email",
-    {
-      "provider": "facebook",
-      "app_id": "FACBOOK_APP_ID"
-    },
-    "twitter",
-    "linkedin",
-    "pinterest",
-    "tumblr",
-    "whatsapp",
-    "line",
-    "sms"
-  ],
   "components": [
     {
       "type": "heading",
-      "text": "What's the story with AMP stories"
+      "text": "Reactions?"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "👍",
+          "url": "example.com/signup"
+        },
+        {
+          "text": "🤔",
+          "url": "example.com/subscribe"
+        },
+        {
+          "text": "💬",
+          "url": "example.com/subscribe"
+        },
+        {
+          "text": "✏️",
+          "url": "example.com/subscribe"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Next up: What's the story with SkillGraft stories"
     },
     {
       "type": "small",
       "title": "Behind the story",
       "url": "/stories/behind-the-story",
+      "amphtml": true,
       "image": "/static/stories/story1/thumbnail.png"
     },
     {
@@ -45,7 +57,7 @@
     },
     {
       "type": "small",
-      "title": "Integrate links, CTAs, and Ads",
+      "title": "Integrate links, CTAs, and Interactive Elements",
       "url": "/stories/links-cta-ads",
       "image": "/static/stories/story5/thumbnail.png"
     },
@@ -54,6 +66,19 @@
       "title": "It's your turn now",
       "url": "/stories/wrap-up",
       "image": "/static/stories/story6/thumbnail.png"
+    },
+    {
+      "type": "heading",
+      "text": "more infos"
+    },
+    {
+      "type": "textbox",
+      "text": [
+        "Food by Enrique McPizza",
+        "Choreography by Gabriel Filly",
+        "Script by Alan Ecma S.",
+        "Direction by Jon Tarantino"
+      ]
     }
   ]
 }
